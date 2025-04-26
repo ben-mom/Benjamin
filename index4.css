@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0%;
+}
+
+
+.la_partie_Welcom{
+   
+    text-align: center;
+    background-color: rgb(175, 21, 21);
+    height: 90px;
+    padding: 10px 0 0 0;
+    color: aliceblue;
+    
+  
+
+
+}
+.mes_liens{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(65, 63, 63);
+    height: 55px;
+    padding: 20px 0 0 0;
+    a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+}
+.mon_image{
+    background-color: black;
+    background-image: url(img/photo\ acueil.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    transition: 2s;
+}
+.mon_image:hover{
+    background-color: rgb(241, 7, 7);
+    background-image: url(img/la_tete_du_pompier.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    transition: 2s ;
+}
